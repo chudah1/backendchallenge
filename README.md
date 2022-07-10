@@ -37,10 +37,12 @@ run `node --version` to check
 Go into project directory
 `cd backend`
 
+```
 //Install packages and dependencies
 
 In the root folder run
 `npm install`
+```
 
 `run nodemon` to get the server started
 
