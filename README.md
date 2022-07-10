@@ -30,9 +30,11 @@ This project is part of a challenge for an interview
 
 run `node --version` to check
 
+```
 **Clone the repo **
 
-`git clone ....`
+git clone ....
+```
 
 Go into project directory
 `cd backend`
