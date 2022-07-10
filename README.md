@@ -29,11 +29,10 @@ This project is part of a challenge for an interview
 run `node --version` to check
 
 **Clone the repo **
-```
-git clone ....
-```
-Go into project directory
 
+`git clone ....`
+
+Go into project directory
 `cd backend`
 
 //Install packages and dependencies
@@ -43,4 +42,4 @@ In the root folder run
 
 `run nodemon` to get the server started
 
-view app on (localhost://3000)
+view app on [localhost://3000]
