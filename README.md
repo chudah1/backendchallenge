@@ -24,6 +24,8 @@ This project is part of a challenge for an interview
   models
  
   public
+  
+  **app.js: Entry point of the application **
 
 ## Installation
 **Disclaimer: You need to download NodeJs runtime environment if there isn't any on your machine**
