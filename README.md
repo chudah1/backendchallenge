@@ -1,5 +1,7 @@
-# Backendchallenge
-## Project Title
+# Project Title
+
+
+## Backendchallenge
 
 This project is part of a challenge for an interview
 
@@ -9,8 +11,8 @@ This project is part of a challenge for an interview
  
 ### Tech Stack
 **Server Side**: MongoDb, NodeJs, ExpressJs,
-**Dependecies**: mongoose, multer, ejs, nodemon, validator
 
+**Dependecies**: mongoose, multer, ejs, nodemon, validator
 
 ## Project Layout
   controller
@@ -42,4 +44,4 @@ In the root folder run
 
 `run nodemon` to get the server started
 
-view app on [localhost://3000]
+[view app on localhost://3000]
