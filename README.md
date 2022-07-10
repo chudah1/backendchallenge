@@ -31,7 +31,7 @@ This project is part of a challenge for an interview
 run `node --version` to check
 
 ```
-**Clone the repo **
+Clone the repo
 
 git clone ....
 ```
@@ -43,7 +43,7 @@ Go into project directory
 //Install packages and dependencies
 
 In the root folder run
-`npm install`
+npm install
 ```
 
 `run nodemon` to get the server started
