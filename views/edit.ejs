@@ -1,0 +1,26 @@
+<%- include("./partials/head") -%>
+
+<div class="container">
+<form action="/rest/editRecord/<%=id %>" method="POST" >
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" name="name" class="form-control"  placeholder="Name.." required value="<%=name %>">
+      </div>
+<div class="mb-3">
+    <label class="form-label">Email address</label>
+    <input type="email" name= "email" class="form-control" placeholder="name@example.com" required value="<%=email %>">
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Phone</label>
+    <input type="tel" name= "phone" class="form-control" placeholder="024567885" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required value="<%=phone %>">
+  </div>
+  <div class="mb-3">
+    <button type="submit" class="btn btn-warning">Edit</button>
+</div>
+  </form>
+  </div>    
+  <%- include("./partials/footer") -%>
+
+</body>
+
+</html>

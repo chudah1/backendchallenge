@@ -1,0 +1,16 @@
+<%- include("./partials/head") -%>
+
+<div class="container mt-4 mx-4">
+<form action="/rest/uploadcsv" method="post" enctype="multipart/form-data">
+<div class="input-group mb-3">
+    <input type="file" class="form-control" name="csv" required>
+    <button type="submit" class="btn btn-success">Upload</label>
+  </div>
+
+
+  <%- include("./partials/footer") -%>
+</div>
+</form>
+</body>
+
+</html>
