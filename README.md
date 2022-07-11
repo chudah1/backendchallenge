@@ -25,6 +25,8 @@ This project is part of a challenge for an interview
  
   public
   
+  tests (written with postman and exported to Vscode to run)
+  
 _  app.js: Entry point of the application 
 _
 ## Installation
