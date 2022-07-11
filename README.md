@@ -36,7 +36,7 @@ _
 ```
 Clone the repo
 
-gh repo clone chudah1/Backendchallenge
+gh repo clone chudah1/backendchallenge
 ```
 
 Go into project directory
