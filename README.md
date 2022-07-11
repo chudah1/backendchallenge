@@ -42,11 +42,11 @@ gh repo clone chudah1/Backendchallenge
 Go into project directory
 `cd backend`
 
-```
 //Install packages and dependencies
 
 In the root folder run
-npm install
+```
+docker-compose up
 ```
 
 `run nodemon` to get the server started
