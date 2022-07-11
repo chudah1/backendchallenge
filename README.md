@@ -38,6 +38,7 @@ run `node --version` to check
 Clone the repo
 
 gh repo clone chudah1/Backendchallenge
+```
 
 Go into project directory
 `cd backend`
