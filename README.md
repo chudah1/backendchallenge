@@ -49,6 +49,15 @@ In the root folder run
 docker-compose up
 ```
 
-`run nodemon` to get the server started
+The default port of the nodejs application is `3000`.
+
+For the first time always the nodeJS server will fail to connect to database just change some .js files and it will connect to database normally. This happens because mongoDB server takes time to start and nodeJS server start as soon as we do docker-compose up.
+
+The setup will take time just for the first time afterwards it will be fast.
+
+If for some reason your mongoDB server is not working stop the application by pressing `CTRL+C` and then executing
+```
+docker-compose up
+```
 
 [view app on localhost://3000]
