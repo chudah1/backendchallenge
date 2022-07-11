@@ -35,7 +35,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "localhost:3000/rest/getRecords?limit=20&page=2",
+					"raw": "localhost:3000/rest/getRecords?page=2",
 					"host": [
 						"localhost"
 					],

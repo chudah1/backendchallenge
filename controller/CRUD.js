@@ -1,9 +1,10 @@
 const { Contact, csv } = require("../models/contact")
 
 const getRecords = async (req,res)=>{
-    const {page=1, limit=20} = req.query
+    const limit = 20;
+    const {page=1} = req.query
     const records = await Contact.find()
-    .limit(limit*1)
+    .limit(limit)
     .skip((page - 1) * limit).exec();
     const count = await Contact.countDocuments()
 
